@@ -237,7 +237,7 @@ define(['https://pinusm.github.io/MinnoIATscripts/quiat10.js'], function(iatExte
         remindErrorTextTouch:'<p dir="rtl" align="center" style="font-size:"1.4em"; font-family:arial">' +
         'אם תטעו, <font color=\"#ff0000\"><b>X</b></font> אדום יופיע' +
         '.' + 
-        'אנא געו בצד השני כדי להמשיך<p/>'+
+        ' אנא געו בצד השני כדי להמשיך<p/>'+
         '<p/>',	
 		
         instSwitchCategoriesTouch: [
