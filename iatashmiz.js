@@ -1,4 +1,5 @@
-define(['https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualtrics/quiat10.js'], function(iatExtension){
+define(['https://pinusm.github.io/MinnoIATscripts/quiat10.js'], function(iatExtension){
+
 
     return iatExtension({
         isTouch:true,
