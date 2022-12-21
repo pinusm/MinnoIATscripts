@@ -91,7 +91,9 @@ define(['https://pinusm.github.io/MinnoIATscripts/quiat10.js'], function(iatExte
             stimulusCss : {color:'#0000FF','font-size':'2.3em'}
         },
         
-        finalText : 'לחצו על מקש הרווח בכדי להמשיך למטלה הבאה', 			
+        finalText : 'לחצו על מקש הרווח בכדי להמשיך למטלה הבאה', 	
+        finalTouchText : 'געו באזור הירוק בתחתית המסך על מנת להמשיך למטלה הבאה',
+		
 	    
 	shortData: true,
 
@@ -110,6 +112,23 @@ define(['https://pinusm.github.io/MinnoIATscripts/quiat10.js'], function(iatExte
 			'<u>השיבו מהר ככל האפשר אך היו מדויקים</u></p>'+
 			'<p>לחצו על מקש הרווח כאשר אתם מוכנים להתחיל</p>'+
             '</div>',			
+            
+            instAttributePracticeTouch: [
+				'<div>',
+					'<p align="center">',
+						'<u>חלק blockNum מ- nBlocks</u>',
+					'</p>',
+					'<p align="right" style="margin-left:5px">',
+						'<br/>',
+						'יש לשים את אצבע <b>ימין</b> על האיזור הירוק עבור פריטים ששייכים לקטגוריה  <font color="#0000ff">rightAttribute</font>.<br/>',
+						'יש לשים את אצבע <b>שמאל</b> על האיזור הירוק עבור פריטים ששייכים לקטגוריה  <font color="#0000ff">leftAttribute</font>.<br/>',
+                    	'הפריטים יופיעו אחד אחרי השני.<br/>',
+						'<br/>',
+						'אם תטעו, <font color=\"#ff0000\"><b>X</b></font> אדום יופיע. אנא געו בצד השני. יש להגיב כמה שיותר מהר ובצורה מדויקת',
+					'</p>',
+					'<p align="center">יש לגעת באיזור הירוק <b>מטה </b> כדי להתחיל.</p>',
+				'</div>'
+			].join('\n'),
 
         instCategoriesPractice: '<div style="font-size:20px; text-align:center;">' +
             '<p><u> חלק blockNum מתוך nBlocks </u><br/><br/></p>' +
@@ -122,6 +141,23 @@ define(['https://pinusm.github.io/MinnoIATscripts/quiat10.js'], function(iatExte
 			'לחצו על המקש האחר כדי להמשיך<br/>' +
 			'<u>השיבו מהר ככל האפשר אך היו מדויקים</u><br/><br/></p>'+
 			'<p align="center">לחצו על מקש הרווח כאשר אתם מוכנים להתחיל</font></p></div>'			,			
+        
+        instCategoriesPracticeTouch: [
+				'<div>',
+					'<p align="center">',
+						'<u>חלק blockNum מ- nBlocks</u>',
+					'</p>',
+					'<p align="right" style="margin-left:5px">',
+						'<br/>',
+						'יש לשים את אצבע <b>ימין</b> על האיזור הירוק עבור פריטים ששייכים לקטגוריה  <font color="#336600">rightCategory</font>.<br/>',
+						'יש לשים את אצבע <b>שמאל </b>על האיזור הירוק עבור פריטים ששייכים לקטגוריה  <font color="#336600">leftCategory</font>.<br/>',
+                        'הפריטים יופיעו אחד אחרי השני.<br/>',
+						'<br/>',
+						'אם תטעו, <font color=\"#ff0000\"><b>X</b></font> אדום יופיע. אנא געו בצד השני. יש להגיב כמה שיותר מהר ובצורה מדויקת',
+					'</p>',
+					'<p align="center">יש לגעת באיזור הירוק <b>מטה </b> כדי להתחיל.</p>',
+				'</div>'
+			].join('\n'),
 
         instFirstCombined : '<div style="font-size:20px; text-align:center;">' +
             '<p><u> חלק blockNum מתוך nBlocks </u></p>' +
@@ -138,6 +174,22 @@ define(['https://pinusm.github.io/MinnoIATscripts/quiat10.js'], function(iatExte
 			'<u>השיבו מהר ככל האפשר אך היו מדויקים</u><br/><br/></p>'+
 			'<p align="center">לחצו על מקש הרווח כאשר אתם מוכנים להתחיל</font></p></div>',			
 		
+        
+        instFirstCombinedTouch:[
+			'<div>',
+            '<p align="center">',
+                '<u>חלק blockNum מ- nBlocks</u>',
+            '</p>',
+            '<br/>',
+            '<br/>',
+            '<p align="right" style="margin-left:5px">',
+            'יש לשים את אצבע <b>ימין</b> על האיזור הירוק עבור פריטים ששייכים לקטגוריות  <font color="#336600">rightCategory</font> ו<font color="#0000ff">rightAttribute</font>.</br>',
+            'יש לשים את אצבע <b>שמאל</b> על האיזור הירוק עבור פריטים ששייכים לקטגוריות  <font color="#336600">leftCategory</font> ו<font color="#0000ff">leftAttribute</font>.</br>',
+                'אם תטעו, <font color=\"#ff0000\"><b>X</b></font> אדום יופיע. אנא געו בצד השני. יש להגיב כמה שיותר מהר ובצורה מדויקת',
+                '</p>',
+                '<p align="center">יש לגעת באיזור הירוק <b>מטה </b> כדי להתחיל.</p>',
+            '</div>'
+		    ].join('\n'),
         instSecondCombined : '<div style="font-size:20px; text-align:center;">' +
             '<p><u> חלק blockNum מתוך nBlocks </u></p>' +
 			'<p style="vertical-align:bottom; margin-right:10px;">' +
@@ -152,7 +204,21 @@ define(['https://pinusm.github.io/MinnoIATscripts/quiat10.js'], function(iatExte
 			'לחצו על המקש האחר כדי להמשיך<br/>' +
 			'<u>השיבו מהר ככל האפשר אך היו מדויקים</u><br/><br/></p>'+
 			'<p align="center">לחצו על מקש הרווח כאשר אתם מוכנים להתחיל</font></p></div>',
-	
+        instSecondCombinedTouch:[
+				'<div>',
+					'<p align="center"><u>חלק blockNum מ- nBlocks</u></p>',
+					'<br/>',
+					'<br/>',
+
+					'<p align="right" style="margin-left:5px">',
+					'יש לשים את אצבע <b>ימין</b> על האיזור הירוק עבור פריטים ששייכים לקטגוריות  <font color="#336600">rightCategory</font> ו<font color="#0000ff">rightAttribute</font>.<br/>',
+					'יש לשים את אצבע <b>שמאל</b> על האיזור הירוק עבור פריטים ששייכים לקטגוריות  <font color="#336600">leftCategory</font> ו<font color="#0000ff">leftAttribute</font>.<br/>',
+						'<br/>',
+						'יש להגיב כמה שיותר מהר ובצורה מדויקת<br/>',
+					'</p>',
+					'<p align="center">יש לגעת באיזור הירוק <b>מטה </b> כדי להתחיל.</p>',
+				'</div>'
+			].join('\n'),
         instSwitchCategories : '<div style="font-size:20px; text-align:center;">' +
             '<p><u> חלק blockNum מתוך nBlocks </u><p>' +
 			'<p style="vertical-align:bottom; margin-right:10px;">' +
@@ -167,7 +233,25 @@ define(['https://pinusm.github.io/MinnoIATscripts/quiat10.js'], function(iatExte
         remindErrorText : '<p align="center" style="font-size:"0.6em"; font-family:arial">' +
 		'אם תעשו טעות, יופיע <font color="#ff0000"><b>X</b></font> אדום. ' +
 		'הקישו על המקש השני כדי להמשיך.<p/>',
-			
+		
+        instSwitchCategoriesTouch: [
+            '<div>',
+                '<p align="center">',
+                    '<u>חלק blockNum מ- nBlocks</u>',
+                '</p>',
+                '<p align="right" style="margin-left:5px">',
+                    '<br/>',
+                    '<b>שימו לב, הקטגוריות החליפו את מיקומן!</b><br/>',
+                    'יש לשים את אצבע <b>ימין</b> על האיזור הירוק עבור פריטים ששייכים לקטגוריה  <font color="#336600"> rightCategory </font> <br/>',
+                    'יש לשים את אצבע <b>שמאל</b> על האיזור הירוק עבור פריטים ששייכים לקטגוריה  <font color="#336600"> leftCategory </font> <br/>',
+                        'הפריטים יופיעו אחד אחרי השני.',
+                        '<br/>',
+                    'אם תטעו, <font color=\"#ff0000\"><b>X</b></font> אדום יופיע. אנא געו בצד השני. יש להגיב כמה שיותר מהר ובצורה מדויקת',
+                    '</p>',
+                    '<p align="center">יש לגעת באיזור הירוק <b>מטה </b> כדי להתחיל.</p>',
+            '</div>'
+        ].join('\n'),
+
         fb_strong_Att1WithCatA_Att2WithCatB : 'התוצאות מעידות על העדפה אוטומטית חזקה לcategoryB על פני categoryA',
         fb_moderate_Att1WithCatA_Att2WithCatB : 'התוצאות מעידות על העדפה אוטומטית בינונית לcategoryB על פני categoryA',
         fb_slight_Att1WithCatA_Att2WithCatB : 'התוצאות מעידות על העדפה אוטומטית קלה לcategoryB על פני categoryA',
