@@ -46,6 +46,9 @@ define(['https://pinusm.github.io/MinnoIATscripts/quiat10.js'], function(iatExte
     		
     		stimulusCss : {color:'#31940F','font-size':'2.3em'}
         },
+        base_url : {//Where are your images at?
+            image : 'https://pinusm.github.io/MinnoIATscripts/images/'
+        },
         attribute1 : {
             name : 'רע',
             title : {
