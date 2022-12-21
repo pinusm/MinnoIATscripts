@@ -100,7 +100,7 @@ define(['https://pinusm.github.io/MinnoIATscripts/quiat10.js'], function(iatExte
         leftKeyText : 'מקש "E"', 
         rightKeyText : 'מקש "I"', 
         orText : 'או',			
-        instAttributePractice: '<div style="font-size:20px; text-align:center;">' +
+        instAttributePractice: '<div dir="rtl" style="font-size:20px; text-align:center;">' +
             '<p><u> חלק blockNum מתוך nBlocks </u></p>' +
 			'<p style="vertical-align:bottom; margin-right:10px;">' +
             'הקישו באצבע שמאל על מקש <b>E</b> ' + 
@@ -114,7 +114,7 @@ define(['https://pinusm.github.io/MinnoIATscripts/quiat10.js'], function(iatExte
             '</div>',			
             
             instAttributePracticeTouch: [
-				'<div>',
+				'<div dir="rtl">',
 					'<p align="center">',
 						'<u>חלק blockNum מ- nBlocks</u>',
 					'</p>',
@@ -130,7 +130,7 @@ define(['https://pinusm.github.io/MinnoIATscripts/quiat10.js'], function(iatExte
 				'</div>'
 			].join('\n'),
 
-        instCategoriesPractice: '<div style="font-size:20px; text-align:center;">' +
+        instCategoriesPractice: '<div dir="rtl" style="font-size:20px; text-align:center;">' +
             '<p><u> חלק blockNum מתוך nBlocks </u><br/><br/></p>' +
 			'<p style="vertical-align:bottom; margin-right:10px;">' +
             'הקישו באצבע שמאל על מקש <b>E</b> ' + 
@@ -143,7 +143,7 @@ define(['https://pinusm.github.io/MinnoIATscripts/quiat10.js'], function(iatExte
 			'<p align="center">לחצו על מקש הרווח כאשר אתם מוכנים להתחיל</font></p></div>'			,			
         
         instCategoriesPracticeTouch: [
-				'<div>',
+				'<div dir="rtl">',
 					'<p align="center">',
 						'<u>חלק blockNum מ- nBlocks</u>',
 					'</p>',
@@ -159,7 +159,7 @@ define(['https://pinusm.github.io/MinnoIATscripts/quiat10.js'], function(iatExte
 				'</div>'
 			].join('\n'),
 
-        instFirstCombined : '<div style="font-size:20px; text-align:center;">' +
+        instFirstCombined : '<div dir="rtl" style="font-size:20px; text-align:center;">' +
             '<p><u> חלק blockNum מתוך nBlocks </u></p>' +
 			'<p style="vertical-align:bottom; margin-right:10px;">' +
             'הקישו באצבע שמאל על מקש <b>E</b> '+ 
@@ -176,7 +176,7 @@ define(['https://pinusm.github.io/MinnoIATscripts/quiat10.js'], function(iatExte
 		
         
         instFirstCombinedTouch:[
-			'<div>',
+			'<div dir="rtl">',
             '<p align="center">',
                 '<u>חלק blockNum מ- nBlocks</u>',
             '</p>',
@@ -190,7 +190,7 @@ define(['https://pinusm.github.io/MinnoIATscripts/quiat10.js'], function(iatExte
                 '<p align="center">יש לגעת באיזור הירוק <b>מטה </b> כדי להתחיל.</p>',
             '</div>'
 		    ].join('\n'),
-        instSecondCombined : '<div style="font-size:20px; text-align:center;">' +
+        instSecondCombined : '<div dir="rtl" style="font-size:20px; text-align:center;">' +
             '<p><u> חלק blockNum מתוך nBlocks </u></p>' +
 			'<p style="vertical-align:bottom; margin-right:10px;">' +
             'הקישו באצבע שמאל על מקש <b>E</b> '+ 
@@ -205,7 +205,7 @@ define(['https://pinusm.github.io/MinnoIATscripts/quiat10.js'], function(iatExte
 			'<u>השיבו מהר ככל האפשר אך היו מדויקים</u><br/><br/></p>'+
 			'<p align="center">לחצו על מקש הרווח כאשר אתם מוכנים להתחיל</font></p></div>',
         instSecondCombinedTouch:[
-				'<div>',
+				'<div dir="rtl">',
 					'<p align="center"><u>חלק blockNum מ- nBlocks</u></p>',
 					'<br/>',
 					'<br/>',
@@ -219,7 +219,7 @@ define(['https://pinusm.github.io/MinnoIATscripts/quiat10.js'], function(iatExte
 					'<p align="center">יש לגעת באיזור הירוק <b>מטה </b> כדי להתחיל.</p>',
 				'</div>'
 			].join('\n'),
-        instSwitchCategories : '<div style="font-size:20px; text-align:center;">' +
+        instSwitchCategories : '<div dir="rtl" style="font-size:20px; text-align:center;">' +
             '<p><u> חלק blockNum מתוך nBlocks </u><p>' +
 			'<p style="vertical-align:bottom; margin-right:10px;">' +
 			'<b>שימו לב! הקטגוריות החליפו מיקום</b><br/>' +
@@ -230,12 +230,12 @@ define(['https://pinusm.github.io/MinnoIATscripts/quiat10.js'], function(iatExte
 			'<u>השיבו מהר ככל האפשר אך היו מדויקים</u><br/><br/></p>'+
 			'<p>לחצו על מקש הרווח כאשר אתם מוכנים להתחיל</p></div>',
 
-        remindErrorText : '<p align="center" style="font-size:"0.6em"; font-family:arial">' +
+        remindErrorText : '<p dir="rtl" align="center" style="font-size:"0.6em"; font-family:arial">' +
 		'אם תעשו טעות, יופיע <font color="#ff0000"><b>X</b></font> אדום. ' +
 		'הקישו על המקש השני כדי להמשיך.<p/>',
 		
         instSwitchCategoriesTouch: [
-            '<div>',
+            '<div dir="rtl">',
                 '<p align="center">',
                     '<u>חלק blockNum מ- nBlocks</u>',
                 '</p>',
