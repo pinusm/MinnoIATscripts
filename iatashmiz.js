@@ -2,7 +2,6 @@ define(['https://pinusm.github.io/MinnoIATscripts/quiat10.js'], function(iatExte
 
 
     return iatExtension({
-        isTouch:true,
         category1 : {
             name : 'מזרחים', //Will appear in the data.
             title : {
