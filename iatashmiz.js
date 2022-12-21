@@ -118,7 +118,7 @@ define(['https://pinusm.github.io/MinnoIATscripts/quiat10.js'], function(iatExte
 					'<p align="center">',
 						'<u>חלק blockNum מ- nBlocks</u>',
 					'</p>',
-					'<p align="right" style="margin-left:5px">',
+					'<p dir="rtl" align="right" style="margin-left:5px">',
 						'<br/>',
 						'יש לשים את אצבע <b>ימין</b> על האיזור הירוק עבור פריטים ששייכים לקטגוריה  <font color="#0000ff">rightAttribute</font>.<br/>',
 						'יש לשים את אצבע <b>שמאל</b> על האיזור הירוק עבור פריטים ששייכים לקטגוריה  <font color="#0000ff">leftAttribute</font>.<br/>',
@@ -126,7 +126,7 @@ define(['https://pinusm.github.io/MinnoIATscripts/quiat10.js'], function(iatExte
 						'<br/>',
 						'אם תטעו, <font color=\"#ff0000\"><b>X</b></font> אדום יופיע. אנא געו בצד השני. יש להגיב כמה שיותר מהר ובצורה מדויקת',
 					'</p>',
-					'<p align="center">יש לגעת באיזור הירוק <b>מטה </b> כדי להתחיל.</p>',
+					'<p dir="rtl" align="center">יש לגעת באיזור הירוק <b>מטה </b> כדי להתחיל.</p>',
 				'</div>'
 			].join('\n'),
 
@@ -147,7 +147,7 @@ define(['https://pinusm.github.io/MinnoIATscripts/quiat10.js'], function(iatExte
 					'<p align="center">',
 						'<u>חלק blockNum מ- nBlocks</u>',
 					'</p>',
-					'<p align="right" style="margin-left:5px">',
+					'<p dir="rtl" align="right" style="margin-left:5px">',
 						'<br/>',
 						'יש לשים את אצבע <b>ימין</b> על האיזור הירוק עבור פריטים ששייכים לקטגוריה  <font color="#336600">rightCategory</font>.<br/>',
 						'יש לשים את אצבע <b>שמאל </b>על האיזור הירוק עבור פריטים ששייכים לקטגוריה  <font color="#336600">leftCategory</font>.<br/>',
@@ -155,7 +155,7 @@ define(['https://pinusm.github.io/MinnoIATscripts/quiat10.js'], function(iatExte
 						'<br/>',
 						'אם תטעו, <font color=\"#ff0000\"><b>X</b></font> אדום יופיע. אנא געו בצד השני. יש להגיב כמה שיותר מהר ובצורה מדויקת',
 					'</p>',
-					'<p align="center">יש לגעת באיזור הירוק <b>מטה </b> כדי להתחיל.</p>',
+					'<p dir="rtl" align="center">יש לגעת באיזור הירוק <b>מטה </b> כדי להתחיל.</p>',
 				'</div>'
 			].join('\n'),
 
@@ -182,12 +182,12 @@ define(['https://pinusm.github.io/MinnoIATscripts/quiat10.js'], function(iatExte
             '</p>',
             '<br/>',
             '<br/>',
-            '<p align="right" style="margin-left:5px">',
+            '<p dir="rtl" align="right" style="margin-left:5px">',
             'יש לשים את אצבע <b>ימין</b> על האיזור הירוק עבור פריטים ששייכים לקטגוריות  <font color="#336600">rightCategory</font> ו<font color="#0000ff">rightAttribute</font>.</br>',
             'יש לשים את אצבע <b>שמאל</b> על האיזור הירוק עבור פריטים ששייכים לקטגוריות  <font color="#336600">leftCategory</font> ו<font color="#0000ff">leftAttribute</font>.</br>',
                 'אם תטעו, <font color=\"#ff0000\"><b>X</b></font> אדום יופיע. אנא געו בצד השני. יש להגיב כמה שיותר מהר ובצורה מדויקת',
                 '</p>',
-                '<p align="center">יש לגעת באיזור הירוק <b>מטה </b> כדי להתחיל.</p>',
+                '<p dir="rtl" align="center">יש לגעת באיזור הירוק <b>מטה </b> כדי להתחיל.</p>',
             '</div>'
 		    ].join('\n'),
         instSecondCombined : '<div dir="rtl" style="font-size:20px; text-align:center;">' +
@@ -210,13 +210,13 @@ define(['https://pinusm.github.io/MinnoIATscripts/quiat10.js'], function(iatExte
 					'<br/>',
 					'<br/>',
 
-					'<p align="right" style="margin-left:5px">',
+					'<p dir="rtl" align="right" style="margin-left:5px">',
 					'יש לשים את אצבע <b>ימין</b> על האיזור הירוק עבור פריטים ששייכים לקטגוריות  <font color="#336600">rightCategory</font> ו<font color="#0000ff">rightAttribute</font>.<br/>',
 					'יש לשים את אצבע <b>שמאל</b> על האיזור הירוק עבור פריטים ששייכים לקטגוריות  <font color="#336600">leftCategory</font> ו<font color="#0000ff">leftAttribute</font>.<br/>',
 						'<br/>',
 						'יש להגיב כמה שיותר מהר ובצורה מדויקת<br/>',
 					'</p>',
-					'<p align="center">יש לגעת באיזור הירוק <b>מטה </b> כדי להתחיל.</p>',
+					'<p dir="rtl" align="center">יש לגעת באיזור הירוק <b>מטה </b> כדי להתחיל.</p>',
 				'</div>'
 			].join('\n'),
         instSwitchCategories : '<div dir="rtl" style="font-size:20px; text-align:center;">' +
@@ -239,7 +239,7 @@ define(['https://pinusm.github.io/MinnoIATscripts/quiat10.js'], function(iatExte
                 '<p align="center">',
                     '<u>חלק blockNum מ- nBlocks</u>',
                 '</p>',
-                '<p align="right" style="margin-left:5px">',
+                '<p dir="rtl" align="right" style="margin-left:5px">',
                     '<br/>',
                     '<b>שימו לב, הקטגוריות החליפו את מיקומן!</b><br/>',
                     'יש לשים את אצבע <b>ימין</b> על האיזור הירוק עבור פריטים ששייכים לקטגוריה  <font color="#336600"> rightCategory </font> <br/>',
@@ -248,7 +248,7 @@ define(['https://pinusm.github.io/MinnoIATscripts/quiat10.js'], function(iatExte
                         '<br/>',
                     'אם תטעו, <font color=\"#ff0000\"><b>X</b></font> אדום יופיע. אנא געו בצד השני. יש להגיב כמה שיותר מהר ובצורה מדויקת',
                     '</p>',
-                    '<p align="center">יש לגעת באיזור הירוק <b>מטה </b> כדי להתחיל.</p>',
+                    '<p dir="rtl" align="center">יש לגעת באיזור הירוק <b>מטה </b> כדי להתחיל.</p>',
             '</div>'
         ].join('\n'),
 
