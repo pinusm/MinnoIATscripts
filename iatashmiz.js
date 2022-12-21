@@ -3,38 +3,48 @@ define(['https://pinusm.github.io/MinnoIATscripts/quiat10.js'], function(iatExte
 
     return iatExtension({
         category1 : {
-            name : 'מזרחים', //Will appear in the data.
+            name : 'שמנים', 
             title : {
-                media : {word : 'שמות משפחה מזרחים'}, //Name of the category presented in the task.
-                css : {color:'#31940F','font-size':'1.8em'}, //Style of the category title.
-                height : 4 //Used to position the "Or" in the combined block.
+                media : {word : 'אנשים שמנים'}, 
+                css : {color:'#31940F','font-size':'1.8em'}, 
+                height : 4 
             }, 
-            stimulusMedia : [ //Stimuli content as PIP's media objects
-                {word: 'חג\'ג\''},
-                {word: 'מועלם'},
-                {word: 'אוחיון'},
-                {word: 'ג\'רבי'},
-                {word: 'סמוחה'}
-            ],
-            //Stimulus css (style)
-            stimulusCss : {color:'#31940F','font-size':'2.3em'}
+            stimulusMedia : [ 
+                {image: 'fatman1.jpg'},
+                {image: 'fatman3.jpg'},
+                {image: 'fatman4.jpg'},
+				{image: 'fatman5.jpg'},
+                {image: 'fatman6.jpg'},                 
+				{image: 'fatwoman1.jpg'},
+                {image: 'fatwoman2.jpg'},
+                {image: 'fatwoman3.jpg'},
+                {image: 'fatwoman4.jpg'},
+                {image: 'fatwoman6.jpg'}     
+    	    ],
+    		
+    		stimulusCss : {color:'#31940F','font-size':'2.3em'}
         },    
         category2 :    {
-            name : 'אשכנזים', //Will appear in the data.
+            name : 'רזים', 
             title : {
-                media : {word : 'שמות משפחה אשכנזים'}, //Name of the category presented in the task.
-                css : {color:'#31940F','font-size':'1.8em'}, //Style of the category title.
-                height : 4 //Used to position the "Or" in the combined block.
+                media : {word : 'אנשים רזים'}, 
+                css : {color:'#31940F','font-size':'1.8em'}, 
+                height : 4 
             }, 
-            stimulusMedia : [ //Stimuli content as PIP's media objects
-                {word: 'לבקוביץ\''},
-                {word: 'גליקשטיין'},
-                {word: 'בלומפלד'},
-                {word: 'רוזנסקי'},
-                {word: 'ברגסון'}
+            stimulusMedia : [ 
+                {image: 'thinman1.jpg'},
+                {image: 'thinman2.jpg'},
+                {image: 'thinman3.jpg'},
+				{image: 'thinman5.jpg'},
+                {image: 'thinman6.jpg'},                 
+				{image: 'thinwoman1.jpg'},
+                {image: 'thinwoman2.jpg'},
+                {image: 'thinwoman3.jpg'},
+				{image: 'thinwoman5.jpg'},
+                {image: 'thinwoman6.jpg'}  
             ],
-            //Stimulus css (style)
-            stimulusCss : {color:'#31940F','font-size':'2.3em'}
+    		
+    		stimulusCss : {color:'#31940F','font-size':'2.3em'}
         },
         attribute1 : {
             name : 'רע',
