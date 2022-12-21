@@ -233,6 +233,12 @@ define(['https://pinusm.github.io/MinnoIATscripts/quiat10.js'], function(iatExte
         remindErrorText : '<p dir="rtl" align="center" style="font-size:"0.6em"; font-family:arial">' +
 		'אם תעשו טעות, יופיע <font color="#ff0000"><b>X</b></font> אדום. ' +
 		'הקישו על המקש השני כדי להמשיך.<p/>',
+
+        remindErrorTextTouch:'<p dir="rtl" align="center" style="font-size:"1.4em"; font-family:arial">' +
+        'אם תטעו, <font color=\"#ff0000\"><b>X</b></font> אדום יופיע' +
+        '.' + 
+        'אנא געו בצד השני כדי להמשיך<p/>'+
+        '<p/>',	
 		
         instSwitchCategoriesTouch: [
             '<div dir="rtl">',
