@@ -1,6 +1,7 @@
 define(['https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualtrics/quiat10.js'], function(iatExtension){
 
     return iatExtension({
+        isTouch:true,
         category1 : {
             name : 'מזרחים', //Will appear in the data.
             title : {
