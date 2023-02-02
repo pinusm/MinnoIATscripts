@@ -24,7 +24,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			isTouch:true, //Set whether the task is on a touch device.
 			//Set the canvas of the task
 			canvas : {
-				maxWidth: 725,
+				maxWidth: 1300,
 				proportions : 0.7,
 				background: '#ffffff',
 				borderWidth: 5,
