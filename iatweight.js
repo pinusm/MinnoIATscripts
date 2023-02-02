@@ -6,7 +6,7 @@ define(['https://pinusm.github.io/MinnoIATscripts/quiat10.js'], function(iatExte
             name : 'שמנים', 
             title : {
                 media : {word : 'אנשים שמנים'}, 
-                css : {color:'#31940F','font-size':'1.8em'}, 
+                css : {color:'#31940F','font-size':'1.4em'}, 
                 height : 4 
             }, 
             stimulusMedia : [ 
@@ -28,7 +28,7 @@ define(['https://pinusm.github.io/MinnoIATscripts/quiat10.js'], function(iatExte
             name : 'רזים', 
             title : {
                 media : {word : 'אנשים רזים'}, 
-                css : {color:'#31940F','font-size':'1.8em'}, 
+                css : {color:'#31940F','font-size':'1.4em'}, 
                 height : 4 
             }, 
             stimulusMedia : [ 
@@ -53,7 +53,7 @@ define(['https://pinusm.github.io/MinnoIATscripts/quiat10.js'], function(iatExte
             name : 'רע',
             title : {
                 media : {word : 'מילים שליליות'},
-                css : {color:'#0000FF','font-size':'1.8em'},
+                css : {color:'#0000FF','font-size':'1.4em'},
                 height : 4 //Used to position the "Or" in the combined block.
             },
             stimulusMedia : [ //Stimuli content as PIP's media objects
@@ -74,7 +74,7 @@ define(['https://pinusm.github.io/MinnoIATscripts/quiat10.js'], function(iatExte
             name : 'טוב',
             title : {
                 media : {word : 'מילים חיוביות'},
-                css : {color:'#0000FF','font-size':'1.8em'},
+                css : {color:'#0000FF','font-size':'1.4em'},
                 height : 4 //Used to position the "Or" in the combined block.
             },
             stimulusMedia : [ //Stimuli content as PIP's media objects
