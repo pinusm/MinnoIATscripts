@@ -218,6 +218,8 @@ define(['https://pinusm.github.io/MinnoIATscripts/quiat10.js'], function(iatExte
 						'<br/>',
 						'יש להגיב כמה שיותר מהר ובצורה מדויקת<br/>',
 					'</p>',
+                    '<br/>',
+                    '<br/>',
 					'<p dir="rtl" align="center">יש לגעת באיזור הירוק <b>מטה </b> כדי להתחיל.</p>',
 				'</div>'
 			].join('\n'),
