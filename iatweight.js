@@ -187,7 +187,7 @@ define(['https://pinusm.github.io/MinnoIATscripts/quiat10.js'], function(iatExte
             '<p dir="rtl" align="right" style="margin-left:5px">',
             'יש לשים את אצבע <b>ימין</b> על האיזור הירוק עבור פריטים ששייכים לקטגוריות  <font color="#336600">rightCategory</font> ו<font color="#0000ff">rightAttribute</font>.</br>',
             'יש לשים את אצבע <b>שמאל</b> על האיזור הירוק עבור פריטים ששייכים לקטגוריות  <font color="#336600">leftCategory</font> ו<font color="#0000ff">leftAttribute</font>.</br>',
-                'אם תטעו, <font color=\"#ff0000\"><b>X</b></font> אדום יופיע. אנא געו בצד השני. יש להגיב כמה שיותר מהר ובצורה מדויקת',
+            'אם תטעו, <font color=\"#ff0000\"><b>X</b></font> אדום יופיע. אנא געו בצד השני.<br/> יש להגיב כמה שיותר מהר ובצורה מדויקת',
                 '</p>',
                 '<p dir="rtl" align="center">יש לגעת באיזור הירוק <b>מטה </b> כדי להתחיל.</p>',
             '</div>'
@@ -256,8 +256,9 @@ define(['https://pinusm.github.io/MinnoIATscripts/quiat10.js'], function(iatExte
                     'יש לשים את אצבע <b>שמאל</b> על האיזור הירוק עבור פריטים ששייכים לקטגוריה  <font color="#336600"> leftCategory </font> <br/>',
                         'הפריטים יופיעו אחד אחרי השני.',
                         '<br/>',
-                    'אם תטעו, <font color=\"#ff0000\"><b>X</b></font> אדום יופיע. אנא געו בצד השני. יש להגיב כמה שיותר מהר ובצורה מדויקת',
+                    'אם תטעו, <font color=\"#ff0000\"><b>X</b></font> אדום יופיע. אנא געו בצד השני.<br/> יש להגיב כמה שיותר מהר ובצורה מדויקת',
                     '</p>',
+                    '<br/>',
                     '<p dir="rtl" align="center">יש לגעת באיזור הירוק <b>מטה </b> כדי להתחיל.</p>',
             '</div>'
         ].join('\n'),
